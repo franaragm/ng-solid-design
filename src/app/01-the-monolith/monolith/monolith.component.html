@@ -1,0 +1,23 @@
+<header>
+  <nav class="brand">
+    <div class="container flex">
+      <h1 class="logo">Monolith App</h1>
+    </div>
+  </nav>
+</header>
+<main>
+  <div class="todos">
+    <div class="container">
+      <div *ngFor="let item of list">
+        {{ item.task }}
+      </div>
+    </div>
+  </div>
+</main>
+<footer>
+  <form>
+    <label for="new-todo">NEW</label>
+    <input type="text" name="new-todo" id="new" />
+    <input type="submit" value="ADD TODO">
+  </form>
+</footer>
