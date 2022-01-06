@@ -23,10 +23,13 @@ $shadow-color: #220;
   &--jc-c {
     justify-content: center;
   }
+  &--jc-sb {
+    justify-content: space-between;
+  }
 }
 
 .card {
-  padding: 1rem;
+  padding: 1rem 1.25rem;
   margin: 2rem;
   border-radius: 5px;
   box-shadow: 0.5rem 0.5rem 1rem rgba($shadow-color, 0.5);
