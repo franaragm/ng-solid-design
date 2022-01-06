@@ -5,6 +5,9 @@ $primary-background-color: #18b;
 $secondary-background-color: #129;
 $tertiary-background-color: #16a;
 $shadow-color: #220;
+$gold-color: #fd9;
+$primary-text-color: #ffe;
+$secondary-text-color: #135;
 /** */
 
 /**
@@ -42,11 +45,18 @@ $shadow-color: #220;
  * _header.scss
  */
 .header {
-  position: fixed;
+  position: sticky;
   top: 0;
   width: 100%;
   height: 90px;
+  color: $gold-color;
   background: $primary-background-color;
+  background-image: linear-gradient(
+    to bottom,
+    $primary-background-color,
+    $tertiary-background-color
+  );
+  box-shadow: 0 0.5rem 1rem rgba($shadow-color, 0.333);
 }
 /** */
 
@@ -55,8 +65,11 @@ $shadow-color: #220;
  */
 .main {
   background: $secondary-background-color;
-  height: 100%;
-  padding: calc(90px + 1rem) 0;
+  /** `height` should be 100% minus `
+    * .header` and `.footer` `height` (180px).
+    */
+  height: calc(100% - 180px);
+  padding: 1rem;
 }
 
 /** */
@@ -65,19 +78,42 @@ $shadow-color: #220;
  * _footer.scss
  */
 .footer {
-  position: fixed;
+  position: sticky;
   bottom: 0;
   width: 100%;
   height: 90px;
   background: $primary-background-color;
+  background-image: linear-gradient(
+    to top,
+    $primary-background-color,
+    $tertiary-background-color
+  );
+  box-shadow: 0 -0.5rem 1rem rgba($shadow-color, 0.333);
 }
 .form {
   height: 100%;
   width: 100%;
-  padding: 1rem;
-  #new {
+  padding: 2rem;
+  label[for="new-item"] {
+    font-family: Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-weight: 500;
+    color: $gold-color;
+    font-size: 1.75rem;
+  }
+  input[name="new-item"] {
+    padding: 0.5rem;
+    background: $primary-text-color;
+    color: $secondary-text-color;
+    border-radius: 5px;
     width: 100%;
-    margin: 1rem;
+    margin: 1.75rem;
+  }
+  input[type="submit"] {
+    padding: 0.75rem 1.25rem;
+    background: $secondary-text-color;
+    color: $gold-color;
+    border-radius: 5px;
+    border: none;
   }
 }
 /** */
