@@ -11,6 +11,7 @@ export class MonolithComponent implements OnInit {
     { task: 'Take out the garbage.' },
     { task: 'Go to sleep early.' },
   ];
+  submitButtonText = "ADD TODO";
   constructor() {}
 
   ngOnInit(): void {}
