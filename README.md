@@ -6,7 +6,7 @@
   <br />
 </h1>
 <br />
-<h3>
+<h3 align="center">
 An example Angular web app developed with S.O.L.I.D. Design principles.
 </h3>
 <br />
