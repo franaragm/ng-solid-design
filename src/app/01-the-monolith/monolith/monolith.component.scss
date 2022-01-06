@@ -78,7 +78,7 @@ $secondary-text-color: #135;
  * _footer.scss
  */
 .footer {
-  position: sticky;
+  position: fixed;
   bottom: 0;
   width: 100%;
   height: 90px;
@@ -94,13 +94,13 @@ $secondary-text-color: #135;
   height: 100%;
   width: 100%;
   padding: 2rem;
-  label[for="new-item"] {
+  label[for="task"] {
     font-family: Haettenschweiler, "Arial Narrow Bold", sans-serif;
     font-weight: 500;
     color: $gold-color;
     font-size: 1.75rem;
   }
-  input[name="new-item"] {
+  input[name="task"] {
     padding: 0.5rem 1rem;
     background: $primary-text-color;
     color: $secondary-text-color;
