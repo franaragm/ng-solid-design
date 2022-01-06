@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormBuilder } from '@angular/forms';
 
 @Component({
   selector: 'app-monolith',
@@ -11,8 +12,17 @@ export class MonolithComponent implements OnInit {
     { task: 'Take out the garbage.' },
     { task: 'Go to sleep early.' },
   ];
-  submitButtonText = "ADD TODO";
-  constructor() {}
+  form = this.formBuilder.group({
+    task: '',
+  });
+  submitButtonText = 'ADD TODO';
+  constructor(private formBuilder: FormBuilder) {}
 
   ngOnInit(): void {}
+
+  onSubmit() {
+    if (this.list.length !== 99) {
+      this.list.push(this.form.value);
+    }
+  }
 }
