@@ -5,8 +5,11 @@
 </header>
 <main class="main">
   <div class="container">
-    <div class="card" *ngFor="let item of list">
-      {{ item.task }}
+    <div class="card flex flex--jc-sb" *ngFor="let item of list">
+      <div class="p">
+        {{ item.task }}
+      </div>
+      <div class="x"><strong>×</strong></div>
     </div>
   </div>
 </main>
