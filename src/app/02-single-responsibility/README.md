@@ -1,8 +1,9 @@
 <h2 align="center">
   Phase 2: The Single-Responsibility Principle
 </h2>
+Whether creating a component, service, interface, module, or pipe, every unit of code designed to have a single responsibility should, it seems, exist for only one, particular reason as a part of an entire app.
 
-Here, we have taken the `MonolithComponent` the previous step and have separated the responsibilities of components, a service, and reusable styles into their own atomic units:
+Here, we have taken the `MonolithComponent` the previous step and have divided the responsibilities of the monolithic app into singular units of components, a service, and reusable styles:
 
 Components:
 - `SingleResponsibility` (Parent Component)
