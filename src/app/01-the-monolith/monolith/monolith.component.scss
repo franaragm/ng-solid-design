@@ -18,7 +18,6 @@ $secondary-text-color: #135;
   max-width: 1120px;
   margin: 0 auto;
 }
-
 .flex {
   display: flex;
   align-items: center;
@@ -30,7 +29,6 @@ $secondary-text-color: #135;
     justify-content: space-between;
   }
 }
-
 .card {
   padding: 1rem 1.25rem;
   margin: 2rem;
@@ -38,7 +36,6 @@ $secondary-text-color: #135;
   box-shadow: 0.5rem 0.5rem 1rem rgba($shadow-color, 0.5);
   background: $tertiary-background-color;
 }
-
 /** */
 
 /**
@@ -71,7 +68,18 @@ $secondary-text-color: #135;
   height: calc(100% - 180px);
   padding: 1rem;
 }
-
+button.x {
+  border-radius: 5px;
+  border: none;
+  background: $gold-color;
+  color: $secondary-text-color;
+  transition: all 0.5s ease-in-out;
+  &:hover {
+    cursor: pointer;
+    opacity: 80%;
+    transform: scale(90%);
+  }
+}
 /** */
 
 /**
@@ -90,6 +98,11 @@ $secondary-text-color: #135;
   );
   box-shadow: 0 -0.5rem 1rem rgba($shadow-color, 0.333);
 }
+/** */
+
+/**
+ * _form.scss
+ */
 .form {
   height: 100%;
   width: 100%;
