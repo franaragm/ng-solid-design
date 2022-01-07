@@ -22,3 +22,7 @@ What is considered "one particular function" depends on how modular you'd like t
 For example, the `FooterComponent` could be further modularized by generating and developing one child component `FormComponent`, but I decided not to add this component since for the sake of simplicity; however, if I did decide to extend the `FooterComponent` later (like adding a `ReminderComponent` along with the `FormComponent`), then I could generate two children components and separate the `FooterComponent` code between them to further to keep in line with my version of the single-responsibility principle.
 
 Go to [Phase 3](../03-open-closed) to view our app after applying the open-closed design principle.
+
+Go [back](../01-the-monolith).
+
+Go [home](../../../).
