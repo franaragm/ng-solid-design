@@ -5,11 +5,11 @@
 </header>
 <main class="main">
   <div class="container">
-    <div class="card flex flex--jc-sb" *ngFor="let item of list">
+    <div class="card flex flex--jc-sb" *ngFor="let item of list; index as i">
       <div class="p">
         {{ item.task }}
       </div>
-      <div class="x"><strong>×</strong></div>
+      <button class="x" (click)="onClickDelete(i)"><strong>×</strong></button>
     </div>
   </div>
 </main>
