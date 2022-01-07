@@ -16,11 +16,16 @@ export class MonolithComponent implements OnInit {
     task: '',
   });
   submitButtonText = 'ADD TODO';
+
   constructor(private formBuilder: FormBuilder) {}
 
   ngOnInit(): void {}
 
-  onSubmit() {
+  onClickDelete(index: number): void {
+    this.list.splice(index, 1);
+  }
+
+  onSubmit(): void {
     if (this.list.length !== 99) {
       this.list.push(this.form.value);
     }
