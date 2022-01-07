@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./open-closed.component.scss']
 })
 export class OpenClosedComponent implements OnInit {
+  title: string = 'Phase 3';
 
   constructor() { }
 
