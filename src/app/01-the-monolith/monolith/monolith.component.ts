@@ -21,7 +21,7 @@ export class MonolithComponent implements OnInit {
 
   ngOnInit(): void {}
 
-  onClickDelete(index: number): void {
+  deleteOnClick(index: number): void {
     this.list.splice(index, 1);
   }
 
