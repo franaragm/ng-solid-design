@@ -4,6 +4,7 @@
     Angular and SOLID Design Principles
   <br />
   <br />
+  <img alt="A° S.O.L.I.D SCSS art design" src="ng-solid-design.png" width="360px">
 </h1>
 <br />
 <h3 align="center">
