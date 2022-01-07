@@ -3,3 +3,5 @@
 </h2>
 
 Content to come.
+
+Go [home](https://github.com/pjnalls/ng-solid-design/).
