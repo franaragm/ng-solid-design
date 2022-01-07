@@ -4,4 +4,4 @@
 
 Here, we have a single `MonolithComponent` as a starting point our Angular app to start applying SOLID design principles for making this app modular.
 
-Go to [Step 2](../../02-single-responsibility) to view our app after applying the single responsibility design principle.
+Go to [Step 2](../02-single-responsibility) to view our app after applying the single responsibility design principle.
