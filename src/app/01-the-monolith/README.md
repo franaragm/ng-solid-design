@@ -6,4 +6,4 @@ Here, we have a single `MonolithComponent` as a starting point our Angular app t
 
 Go to [Phase 2](../02-single-responsibility) to view our app after applying the single responsibility design principle.
 
-Go [home](../../../).
+Go [home](https://github.com/pjnalls/ng-solid-design/).

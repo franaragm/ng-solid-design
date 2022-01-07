@@ -25,4 +25,4 @@ Go to [Phase 3](../03-open-closed) to view our app after applying the open-close
 
 Go [back](../01-the-monolith).
 
-Go [home](../../../).
+Go [home](https://github.com/pjnalls/ng-solid-design/).
