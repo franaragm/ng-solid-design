@@ -14,7 +14,7 @@ Service: `TaskService`
 
 Styles:
 - `_config.scss` (styles to configure app themes)
-- `_utilities.scss` (styles for common classes)
+- `_utilities.scss` (styles for common SCSS classes)
 
 When considering the single responsibility of our units of code, we want them to serve only one particular function and to do it well.
 What is considered "one particular function" depends on how modular you'd like to be and striking a delicate balance between flexibility and maintainability.
