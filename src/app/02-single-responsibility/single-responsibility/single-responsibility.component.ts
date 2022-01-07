@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./single-responsibility.component.scss'],
 })
 export class SingleResponsibilityComponent implements OnInit {
+  title: string = 'Phase 2';
   constructor() {}
 
   ngOnInit(): void {}
