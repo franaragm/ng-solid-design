@@ -14,6 +14,7 @@ import { OpenClosedComponent } from './03-open-closed/open-closed/open-closed.co
 import { OriginalContentComponent } from './03-open-closed/components/content/original-content/original-content.component';
 import { SquareContentComponent } from './03-open-closed/components/content/square-content/square-content.component';
 import { SectionContentComponent } from './03-open-closed/components/section-content/section-content.component';
+import { LiskovSubstitutionComponent } from './04-liskov-substitution/liskov-substitution/liskov-substitution.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { SectionContentComponent } from './03-open-closed/components/section-con
     OriginalContentComponent,
     SquareContentComponent,
     SectionContentComponent,
+    LiskovSubstitutionComponent,
   ],
   imports: [BrowserModule, FormsModule, ReactiveFormsModule, AppRoutingModule],
   providers: [],
