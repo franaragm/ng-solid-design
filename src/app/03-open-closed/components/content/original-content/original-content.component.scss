@@ -6,9 +6,9 @@
 :host {
   background: $secondary-background-color;
   /** `height` should be 100% minus `
-    * .header` and `.footer` `height` (180px).
+    * .header` `height` (90px).
     */
-  height: calc(100% - 180px);
+  height: calc(50% - 90px);
   padding: 1rem;
 }
 button.x {
