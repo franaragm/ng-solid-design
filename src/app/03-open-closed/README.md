@@ -2,7 +2,7 @@
   Phase 3: The Open-Closed Principle
 </h2>
 
-After adding modularity to our monolithic app with the single-responsibility principle in mind, we can consider the open-closed principle of SOLID design in order ensure our components are *open* for expendability but *closed* to modification.
+After adding modularity to our monolithic app with the single-responsibility principle in mind, we can consider the open-closed principle of SOLID design in order ensure our components are **open** for expendability but **closed** to modification.
 
 A simple example of this would be for us to utilize the `ng-content` selector in a wrapper component called `SectionContentComponent`.
 
