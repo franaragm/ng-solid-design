@@ -11,8 +11,8 @@ import { MainComponent } from './02-single-responsibility/components/main/main.c
 import { FooterComponent } from './02-single-responsibility/components/footer/footer.component';
 import { SingleResponsibilityComponent } from './02-single-responsibility/single-responsibility/single-responsibility.component';
 import { OpenClosedComponent } from './03-open-closed/open-closed/open-closed.component';
-import { OriginalContentComponent } from './03-open-closed/components/content/original-content/original-content.component';
-import { SquareContentComponent } from './03-open-closed/components/content/square-content/square-content.component';
+import { OriginalContentComponent } from './05-interface-segregation/components/original-content/original-content.component';
+import { SquareContentComponent } from './05-interface-segregation/components/square-content/square-content.component';
 import { SectionContentComponent } from './03-open-closed/components/section-content/section-content.component';
 import { LiskovSubstitutionComponent } from './04-liskov-substitution/liskov-substitution/liskov-substitution.component';
 
