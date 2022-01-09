@@ -4,7 +4,7 @@ import { Injectable } from '@angular/core';
   providedIn: 'root',
 })
 export class TaskService {
-  list = [
+  tasks = [
     { task: 'Go to the store.' },
     { task: 'Take out the garbage.' },
     { task: 'Go to sleep early.' },
