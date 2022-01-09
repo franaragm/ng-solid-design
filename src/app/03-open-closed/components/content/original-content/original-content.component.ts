@@ -12,6 +12,6 @@ export class OriginalContentComponent extends SectionBase implements OnInit {
     super();
   }
   ngOnInit(): void {
-    this.list = this.taskService.list;
+    this.tasks = this.taskService.tasks;
   }
 }
