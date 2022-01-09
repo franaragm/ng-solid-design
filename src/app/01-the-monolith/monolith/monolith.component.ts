@@ -7,7 +7,7 @@ import { FormBuilder } from '@angular/forms';
   styleUrls: ['./monolith.component.scss'],
 })
 export class MonolithComponent implements OnInit {
-  list = [
+  tasks = [
     { task: 'Go to the store.' },
     { task: 'Take out the garbage.' },
     { task: 'Go to sleep early.' },
@@ -22,12 +22,12 @@ export class MonolithComponent implements OnInit {
   ngOnInit(): void {}
 
   deleteOnClick(index: number): void {
-    this.list.splice(index, 1);
+    this.tasks.splice(index, 1);
   }
 
   onSubmit(): void {
-    if (this.list.length !== 99) {
-      this.list.push(this.form.value);
+    if (this.tasks.length !== 99) {
+      this.tasks.push(this.form.value);
     }
   }
 }
