@@ -22,12 +22,12 @@ export class SectionContentComponent implements AfterContentInit {
   constructor() {}
 
   ngAfterContentInit(): void {
-    if (this.deletableContent) {
+    if (this.taskContent) {
       console.log(
-        'Testing dependency inversion: \nThis message should only appear as many times as deletable-content displays there used.'
+        'Testing dependency inversion: \nThis message should only appear as many times as task-content displays there used.'
       );
     }
-    if (this.taskContent) {
+    if (this.deletableContent) {
       console.log(
         'Testing dependency inversion: \nThis message should only appear as many times as deletable-content displays there used.'
       );
