@@ -1,0 +1,43 @@
+@import "../../../02-single-responsibility/styles/config", "../../../02-single-responsibility/styles/utilities";
+
+/**
+ * _square-content.css
+ */
+:host {
+  background: $secondary-background-color;
+  /** `height` should be 100% minus `
+    * .footer` `height` (90px).
+    */
+  height: calc(50% - 90px);
+  padding: 1rem;
+  padding-bottom: 10rem;
+  text-align: center;
+
+  /** Extend `.flex` */
+  .flex--square-content {
+    @extend .flex;
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+  }
+  /** Extend `.card` */
+  .card--square-content {
+    @extend .card;
+    padding: 3rem;
+    margin: 1rem;
+    width: calc(33% - 2rem);
+  }
+}
+button.x {
+  border-radius: 5px;
+  border: none;
+  background: $gold-color;
+  color: $secondary-text-color;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+  &:hover {
+    opacity: 80%;
+    transform: scale(90%);
+  }
+}
+/** */
