@@ -15,6 +15,7 @@ import { OriginalContentComponent } from './05-interface-segregation/components/
 import { SquareContentComponent } from './05-interface-segregation/components/square-content/square-content.component';
 import { SectionContentComponent } from './03-open-closed/components/section-content/section-content.component';
 import { LiskovSubstitutionComponent } from './04-liskov-substitution/liskov-substitution/liskov-substitution.component';
+import { InterfaceSegregationComponent } from './05-interface-segregation/interface-segregation/interface-segregation.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { LiskovSubstitutionComponent } from './04-liskov-substitution/liskov-sub
     SquareContentComponent,
     SectionContentComponent,
     LiskovSubstitutionComponent,
+    InterfaceSegregationComponent,
   ],
   imports: [BrowserModule, FormsModule, ReactiveFormsModule, AppRoutingModule],
   providers: [],
