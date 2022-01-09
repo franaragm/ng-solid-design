@@ -1,0 +1,20 @@
+@import "../../styles/config", "../../styles/utilities";
+
+/**
+ * _header.scss
+ */
+.header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 90px;
+  color: $gold-color;
+  background: $primary-background-color;
+  background-image: linear-gradient(
+    to bottom,
+    $primary-background-color,
+    $tertiary-background-color
+  );
+  box-shadow: 0 0.5rem 1rem rgba($shadow-color, 0.333);
+}
+/** */
