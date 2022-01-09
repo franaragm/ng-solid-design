@@ -20,7 +20,7 @@ Styles:
 When considering the single responsibility of our units of code, we want them to serve only one particular function and to do it well.
 What is considered "one particular function" depends on how modular you'd like to be and striking a delicate balance between flexibility and maintainability.
 
-For example, the `FooterComponent` could be further modularized by generating and developing one child component `FormComponent`, but I decided not to add this component since for the sake of simplicity; however, if I did decide to extend the `FooterComponent` later (like adding a `ReminderComponent` along with the `FormComponent`), then I could generate two children components and separate the `FooterComponent` code between them to further to keep in line with the version of the single-responsibility principle you see here.
+For example, the `FooterComponent` could be further modularized by generating and developing one child component `FormComponent`, but I decided not to add this component for the sake of simplicity; however, if I did decide to extend the `FooterComponent` later (like adding a `ReminderComponent` along with the `FormComponent`), then I could generate two child components and separate the `FooterComponent` code between them to further to keep in line with the version of the single-responsibility principle you see here.
 
 Go to [Phase 3](../03-open-closed) to view our app after applying the open-closed design principle.
 
