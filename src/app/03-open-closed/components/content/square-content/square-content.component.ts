@@ -12,6 +12,6 @@ export class SquareContentComponent extends SectionBase implements OnInit {
     super();
   }
   ngOnInit(): void {
-    this.list = this.taskService.list;
+    this.tasks = this.taskService.tasks;
   }
 }
