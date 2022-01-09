@@ -20,8 +20,8 @@ export class FooterComponent implements OnInit {
   ngOnInit(): void {}
 
   onSubmit(): void {
-    if (this.taskService.list.length !== 99) {
-      this.taskService.list.push(this.form.value);
+    if (this.taskService.tasks.length !== 99) {
+      this.taskService.tasks.push(this.form.value);
     }
   }
 }
