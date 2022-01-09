@@ -1,0 +1,27 @@
+/**
+  * _utilities.scss
+  */
+  .container {
+    width: 80%;
+    max-width: 1120px;
+    margin: 0 auto;
+  }
+  .flex {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    &--jc-c {
+      justify-content: center;
+    }
+    &--jc-sb {
+      justify-content: space-between;
+    }
+  }
+  .card {
+    padding: 1rem 1.25rem;
+    margin: 1rem;
+    border-radius: 5px;
+    box-shadow: 0.5rem 0.5rem 1rem rgba($shadow-color, 0.5);
+    background: $tertiary-background-color;
+  }
+  /** */
