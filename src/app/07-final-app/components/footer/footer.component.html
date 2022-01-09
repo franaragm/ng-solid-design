@@ -1,0 +1,13 @@
+<footer class="footer">
+  <form class="container flex form" [formGroup]="form" (ngSubmit)="onSubmit()">
+    <label for="task">NEW</label>
+    <input
+      type="text"
+      name="task"
+      id="task"
+      placeholder="Add a new task to to-do list above."
+      formControlName="task"
+    />
+    <input type="submit" value="{{ submitButtonText }}" />
+  </form>
+</footer>
